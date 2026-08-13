@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Tue Aug 11 14:14:25 2026 as: nmap -sC -sV -p- -oA meow 10.129.49.6 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p- -oA meow 10.129.49.6" start="1786472065" startstr="Tue Aug 11 14:14:25 2026" version="7.99" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.49.6" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="SYN Stealth Scan" time="1786472089" percent="42.20" remaining="33" etc="1786472122"/>
+<taskprogress task="SYN Stealth Scan" time="1786472134" percent="76.60" remaining="22" etc="1786472155"/>
+<taskprogress task="SYN Stealth Scan" time="1786472196" percent="86.43" remaining="21" etc="1786472217"/>
+<taskprogress task="SYN Stealth Scan" time="1786472235" percent="92.00" remaining="15" etc="1786472250"/>
+<host starttime="1786472065" endtime="1786472312"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.129.49.6" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="reset" count="65534" proto="tcp" ports="1-22,24-65535"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="telnet" product="Linux telnetd" ostype="Linux" method="probed" conf="10"><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="42010" rttvar="1215" to="100000"/>
+</host>
+<runstats><finished time="1786472312" timestr="Tue Aug 11 14:18:32 2026" summary="Nmap done at Tue Aug 11 14:18:32 2026; 1 IP address (1 host up) scanned in 247.06 seconds" elapsed="247.06" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Thu Aug 13 12:45:31 2026 as: nmap -sC -sV -oA dancing 10.129.57.34
+Host: 10.129.57.34 ()	Status: Up
+Host: 10.129.57.34 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: closed (996)
+# Nmap done at Thu Aug 13 12:45:49 2026 -- 1 IP address (1 host up) scanned in 18.30 seconds

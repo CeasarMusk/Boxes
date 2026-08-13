@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Tue Aug 11 14:14:25 2026 as: nmap -sC -sV -p- -oA meow 10.129.49.6
+Host: 10.129.49.6 ()	Status: Up
+Host: 10.129.49.6 ()	Ports: 23/open/tcp//telnet//Linux telnetd/	Ignored State: closed (65534)
+# Nmap done at Tue Aug 11 14:18:32 2026 -- 1 IP address (1 host up) scanned in 247.06 seconds
