@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Thu Aug 13 13:35:40 2026 as: nmap -sC -sV -p6379 -iL ip.txt -T 5 -oN Redeemer
+Nmap scan report for 10.129.57.111
+Host is up (0.041s latency).
+
+PORT     STATE SERVICE VERSION
+6379/tcp open  redis   Redis key-value store 5.0.7
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 13 13:35:47 2026 -- 1 IP address (1 host up) scanned in 7.08 seconds
